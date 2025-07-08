@@ -1,7 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-# from fastapi.staticfiles import StaticFiles
 
 from backend.services.content_service import ContentService
 from backend.services.llm_service import LLMService
